@@ -1,1 +1,13 @@
 /* Add custom styles here, as needed */
+.container {
+  max-width: 75em;
+  text-align: center;
+}
+
+.recipe_picture {
+  max-width: 50em;
+}
+
+.recipeItems {
+  text-align: left;
+}

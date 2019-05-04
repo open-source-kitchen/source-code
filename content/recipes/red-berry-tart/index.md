@@ -3,21 +3,21 @@
 layout: recipe
 title:  "Red Berry Tart"
 image: red-berry-tart.jpg
-imagecredit: 
+imagecredit:
 date: 2017-09-17
-YouTubeID: 
+YouTubeID:
 
-authorName:
-authorURL: 
-sourceName:
+authorName: Unknown
+authorURL:
+sourceName: Unknown
 sourceURL:
 category: Dessert
 tags:
   - Dessert
   - fruit
 yield: 4
-prepTime: 
-cookTime: 
+prepTime:
+cookTime:
 
 
 directions:

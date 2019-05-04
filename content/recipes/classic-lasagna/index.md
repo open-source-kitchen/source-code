@@ -6,7 +6,7 @@ imagecredit:
 date: 2018-01-02
 
 authorName: Terri
-authorURL: www.greatgrubdelicioustreats.com
+authorURL: http://www.greatgrubdelicioustreats.com
 sourceName: "Great Grub, Delicious Treats"
 sourceURL: http://www.greatgrubdelicioustreats.com/classic-lasagna/
 category: dinner
