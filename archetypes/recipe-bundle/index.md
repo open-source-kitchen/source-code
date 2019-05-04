@@ -6,7 +6,7 @@ title:  "{{ replace .Name "-" " " | humanize | title }}" # The title of your awe
 image: awesome-recipe-image.jpg # Name of image in recipe bundle
 imagecredit: https://placekitten.com/600/800 # URL to image source page, website, or creator
 YouTubeID:  # The F2SYDXV1W1w part of https://www.youtube.com/watch?v=F2SYDXV1W1w
-authorName: Anonymous # Name of the recipe/article author
+author: Anonymous # Name of the recipe/article author
 authorURL: # URL of their home website
 sourceName: Unknown # Name of the source website
 sourceURL: # Actual URL of the recipe itself

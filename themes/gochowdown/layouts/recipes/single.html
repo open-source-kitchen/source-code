@@ -26,26 +26,34 @@
     <div class="px2 mt3 clearfix">
       <div class="sm-col-8 mx-auto" itemprop="description">
         <h2>By:
-          {{ with .Params.authorURL }}
-            <a href="{{ . }}">
-          {{ end }}
-
-          {{ .Params.authorName }}
-
-          {{ with .Params.authorURL }}
+          {{ with .Params.author }}
+            <a href="{{ ( printf "author/%s/" ( . | urlize | lower ) ) | relLangURL }}">
+              <span itemprop="recipeAuthor">
+                {{ . }}
+              </span>
             </a>
           {{ end }}
         </h2>
-        <h3>From:
-          {{ with .Params.sourceURL }}
-            <a href="{{ . }}">
-          {{ end }}
+        {{ with .Params.authorURL }}
+          <h3>
+            (<a href="{{ . }}">
+              visit their website
+            </a>)
+          </h3>
+        {{ end }}
+        {{ if ne .Params.sourcename "Unknown" }}
+          <h3>Recipe From:
+            {{ with .Params.sourceURL }}
+              <a href="{{ . }}">
+            {{ end }}
 
-          {{ .Params.sourceName }}
+            {{ .Params.sourceName }}
 
-          {{ with .Params.sourceURL }}
-            </a>
-          {{ end }}
+            {{ with .Params.sourceURL }}
+              </a>
+            {{ end }}
+          </h3>
+        {{ end }}
       </div>
     </div>
 

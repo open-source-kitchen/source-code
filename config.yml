@@ -33,10 +33,14 @@ menu:
     - name: Cuisine
       weight: 2
       url: /cuisine/
+    - name: Author
+      weight: 3
+      url: /author/
     - name: Tags
       weight: 4
       url: /tags/
 taxonomies:
+  author: author
   category: category
   cusine: cuisine
   tag: tags

@@ -5,7 +5,7 @@ image: classic-lasagna.jpg
 imagecredit:
 date: 2018-01-02
 
-authorName: Terri
+author: Terri
 authorURL: http://www.greatgrubdelicioustreats.com
 sourceName: "Great Grub, Delicious Treats"
 sourceURL: http://www.greatgrubdelicioustreats.com/classic-lasagna/

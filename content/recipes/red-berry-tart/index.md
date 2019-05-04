@@ -7,7 +7,7 @@ imagecredit:
 date: 2017-09-17
 YouTubeID:
 
-authorName: Unknown
+author: Unknown
 authorURL:
 sourceName: Unknown
 sourceURL:
